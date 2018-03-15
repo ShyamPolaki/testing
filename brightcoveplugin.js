@@ -1,3 +1,4 @@
+videojs.registerPlugin('relatedVideosPlugin', function() {
 var myPlayer,
     requestData,
     apiBaseURL = 'https://edge.api.brightcove.com/playback/v1/accounts/',
@@ -189,3 +190,4 @@ loadAndPlay = function (idx) {
         myPlayer.play();
     });
 }
+});
