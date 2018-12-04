@@ -1,0 +1,21 @@
+<VAST version="2.0">
+  <Ad id="static">
+    <InLine>
+      <AdSystem>TV2Z VAST</AdSystem>
+      <AdTitle>TV2Z VAST</AdTitle>
+      <Impression>http://example.com/pixel.gif</Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:52</Duration>
+            <MediaFiles>
+              <MediaFile type="video/mp4" bitrate="3000" width="480" height="270">
+                https://admin.jilmovies.com/uploads/videos/original/786113c514823dbce9e77bd731285adad0bb32de.mp4
+              </MediaFile>
+            </MediaFiles>
+           </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
